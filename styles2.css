@@ -1,0 +1,219 @@
+body{
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Rokkitt', serif;
+}
+
+h1{
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 16px;
+  font-family: 'Rokkitt', serif;
+  font-size: 7rem; /* 16px =100% = 1 em*/
+  position: absolute;
+  left: 29%;
+  top:10%;
+   /* reltive to the top containter */
+}
+
+h2{
+color: black;
+font-size: 1.7rem;
+font-weight: 600;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+h3{
+color: black;
+font-size:1.7rem;
+
+
+
+}
+
+
+hr{
+border: dashed;
+border-bottom: none;
+border-width: 7px;
+color: #d45a5a;
+margin: 50px auto;
+width: 3%;
+
+
+
+}
+
+p{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2;
+}
+
+a{
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin:10px  20px;
+  text-decoration: none;
+  font-family: 'Rokkitt', serif;
+
+}
+a:hover{
+  color: #d45a5a;
+}
+
+/* *************************************************************************************************************************************************************/
+
+.top-container{
+background-color: #010101;
+position:relative; /* reltive to the body */
+height: 750px;
+
+
+
+}
+
+.pro{
+  color: #d45a5a;
+  text-decoration: underline;
+
+}
+
+
+
+.p1{
+  color: white;
+  margin-top: 0;
+  font-family: 'Rokkitt', serif;
+    font-size: 2.8rem;
+    font-weight: bold;
+    position: absolute;
+    left: 41%;
+    top: 33%; /* relative to the top containter */
+    padding-top: 0;
+}
+
+.whitelines{
+position:absolute;   /* relative to the top containter */
+top: 64%;
+left: 17%;
+height: 250px;
+width: 1000px;
+
+
+}
+
+
+.middle-container{
+  margin-top: 0;
+
+}
+
+
+.greylines{
+position:relative;
+top: 15px;
+height: 250px;
+width: 1000px;
+
+}
+
+.Ignes{
+  color: #d45a5a;
+
+}
+
+.profile-image{
+height: 240px;
+width: 240px;
+filter: drop-shadow(0 0 0.75rem black);
+
+
+}
+
+.based-in-greece{
+  color: black;
+}
+
+
+.skill-row{
+width: 50%;
+text-align: left;
+margin: 100px auto 100px auto;
+
+
+}
+.computer-image{
+  margin-right: 50px;
+  width: 20%;
+  float:left;
+filter: drop-shadow(0 0 0.9rem #d45a5a);
+}
+
+.headphones-image{
+margin-left: 50px;
+width:20%;
+float: right;
+filter: drop-shadow(0 0 0.9rem #d45a5a);
+}
+
+.medal-image{
+margin-right: 50px;
+width:20%;
+float: left;
+filter: drop-shadow(0 0 0.9rem #d45a5a);
+
+}
+
+
+.button {
+
+  box-shadow: 0 -1px 22px 4px #d45a5a;
+	background-color:black;
+	border-radius:28px;
+	border:1px solid #d45a5a;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	  font-family: 'Rokkitt', serif;
+	font-size:17px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  padding:12px 19px;
+	text-decoration:none;
+	text-shadow:0 1px 0 white;
+}
+.button:hover {
+	background-color:#d45a5a;
+  color: white;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container{
+  background-color: black;
+  padding: 50px 0 50px 0;
+
+
+}
+
+
+.copyrights{
+color: white;
+font-size: 1rem;
+margin-top: 30px;
+
+}
+
+.moto{
+  color: #d45a5a;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+}
